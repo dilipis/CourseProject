@@ -17,7 +17,9 @@ A video tutorial is available [HERE](https://mediaspace.illinois.edu/media/t/1_f
 
 ### How the code works
 
-This project uses BERT (Bidirectional Encoder Representations from Transformers) which is a state-of-the-art machine learning model used for NLP tasks. BERT is a pre-trained NLP model which can be trained to several text classification problems. The HuggingFace Transformers library is used to get the BERT model that works with Tensorflow.
+This project uses BERT (Bidirectional Encoder Representations from Transformers) which is a state-of-the-art machine learning model used for NLP tasks. BERT is a pre-trained NLP model which can be further trained to solve several text classification problems. BERT makes use of Transformer, an attention mechanism that learns contextual relations between words (or sub-words) in a text. 
+
+The HuggingFace Transformers library is used to get the BERT model that works with Tensorflow.
 
 
 This is how the code works at the high level
